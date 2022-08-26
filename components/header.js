@@ -7,7 +7,8 @@ export default function Header() {
                         <nav className="navbar navbar-expand-lg custom_nav-container ">
                             {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
                             <a className="navbar-brand" href="/">
-                                <span>BigWing</span>
+                                {/* <span>BigWing</span> */}
+                                <img src="images/techg4Logo.png" height={100} width={250}></img>
                             </a>
                             <button
                                 className="navbar-toggler"
