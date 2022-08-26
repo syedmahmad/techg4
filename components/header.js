@@ -8,7 +8,7 @@ export default function Header() {
                             {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
                             <a className="navbar-brand" href="/">
                                 {/* <span>BigWing</span> */}
-                                <img src="images/techg4Logo.png" height={100} width={250}></img>
+                                <img src="images/techg4.png" width={225} alt="techG4"></img>
                             </a>
                             <button
                                 className="navbar-toggler"
