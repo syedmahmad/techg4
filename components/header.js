@@ -28,7 +28,7 @@ export default function Header() {
                                 id="navbarSupportedContent"
                             >
                                 <div className="d-flex  flex-column flex-lg-row align-items-center">
-                                    <ul className="navbar-nav  ">
+                                    <ul className="navbar-nav">
                                         <li className="nav-item active">
                                             {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
                                             <a className="nav-link" href="/">
@@ -50,19 +50,19 @@ export default function Header() {
                                                 Contact
                                             </a>
                                         </li>
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <a className="nav-link" href="#">
                                                 {" "}
                                                 Login
                                             </a>
-                                        </li>
+                                        </li> */}
                                     </ul>
-                                    <form className="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                                    {/* <form className="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                                         <button
                                             className="btn  my-2 my-sm-0 nav_search-btn"
                                             type="submit"
                                         />
-                                    </form>
+                                    </form> */}
                                 </div>
                             </div>
                         </nav>

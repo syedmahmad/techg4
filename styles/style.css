@@ -280,6 +280,26 @@ body {
     -webkit-transform: translateY(-7px);
             transform: translateY(-7px);
   }
+
+  .big-size {
+    width: 90px !important;
+  }
+
+  .flex-parent {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flex-center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .box-w85 {
+    margin: 0 auto;
+    width: 85%;
+  }
   
   .slider_img-box {
     width: 75%;

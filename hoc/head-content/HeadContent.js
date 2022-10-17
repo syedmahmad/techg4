@@ -19,6 +19,7 @@ const HeadContent = ({ description,
             />
             <meta name="keywords" content={keywords ? keywords : ""} />
             <meta charSet="utf-8" />
+            <link rel="icon" href="/logo.jpg" />
             <meta
                 name="viewport"
                 content="width=device-width,minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=no"
