@@ -54,14 +54,14 @@ export default function Footer() {
                                     <div className="d-flex ">
                                         <ul className="responsiveUL">
                                             <li>
-                                                <a href="">
+                                                <a href="https:www.google.com/maps/place/1141,+Block+F+State+Life+Phase+1+State+Life,+society,+Lahore,+Punjab,+Pakistan/@31.4430042,74.3965209,17z/data=!3m1!4b1!4m6!3m5!1s0x3919062eb92dd57d:0x38bcce20ffb31cdb!8m2!3d31.4429996!4d74.3987096!16s%2Fg%2F11s9mq5gkb">
                                                 1141 F-Block State Life Housing Society, Lahore, Pakistan</a>
                                             </li>
                                             <li>
-                                            <a href="">+92 334 9998990</a>
+                                            <a href="tel:+92 334 9998990">+92 334 9998990</a>
                                             </li>
                                             <li>
-                                                <a href="">syedmahmad099@gmail.com</a>
+                                                <a href="mailto:syedmahmad099@gmail.com">syedmahmad099@gmail.com</a>
                                             </li>
                                         </ul>
                                     </div>
