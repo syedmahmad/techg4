@@ -6,17 +6,17 @@ export default function Footer() {
                 {/* info section */}
                 <section className="info_section layout_padding2-bottom">
                     <div className="container">
-                        <h3 className="">TechG4</h3>
+                        <h3 className="techG4">TechG4</h3>
                     </div>
                     <div className="container info_content">
                         <div>
                             <div className="row">
-                                <div className="col-md-6 col-lg-4">
+                                <div className="col-md-6 col-lg-4 responsive">
                                     <div className="d-flex">
                                         <h5>Our Company</h5>
                                     </div>
                                     <div className="d-flex ">
-                                        <ul>
+                                        <ul className="responsive">
                                             <li>
                                                 <a href="/about">Who We Are</a>
                                             </li>
@@ -29,7 +29,7 @@ export default function Footer() {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-md-6 col-lg-4">
+                                <div className="col-md-6 col-lg-4 responsive">
                                     <div className="d-flex">
                                         <h5>Our Services</h5>
                                     </div>
@@ -47,17 +47,18 @@ export default function Footer() {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-md-6 col-lg-4">
+                                <div className="col-md-6 col-lg-4 responsive">
                                     <div className="d-flex">
                                         <h5>Contact Us</h5>
                                     </div>
                                     <div className="d-flex ">
-                                        <ul>
+                                        <ul className="responsiveUL">
                                             <li>
-                                                <a href="">1141 F-Block State Life Housing Society, Lahore, Pakistan</a>
+                                                <a href="">
+                                                1141 F-Block State Life Housing Society, Lahore, Pakistan</a>
                                             </li>
                                             <li>
-                                                <a href="">+92 334 9998990</a>
+                                            <a href="">+92 334 9998990</a>
                                             </li>
                                             <li>
                                                 <a href="">syedmahmad099@gmail.com</a>

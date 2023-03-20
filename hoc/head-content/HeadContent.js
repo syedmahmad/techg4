@@ -36,13 +36,12 @@ const HeadContent = ({ description,
                 content={description}
             />
             <meta property="fb:app_id" content="1757891891170883" />
-
             <meta name="twitter:title" content={title} />
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:site" />
             <meta name="twitter:description" content={description} />
             <meta name="twitter:image" content={image_url} />
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
 
         </Head>
