@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer"
 const email = process.env.REACT_APP_NODEMAILER_EMAIL;
 const pass = process.env.REACT_APP_NODEMAILER_EMAIL_PASS;
-// console.log(email, pass);  
+
 export const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 587,

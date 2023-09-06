@@ -10,6 +10,7 @@ const ContactForm = ()=>
   const error = () => toast("All Fiedls Are Required");
   const [loading,setLoading] = useState(false);
   const notify = () => toast("Email Send !");
+  // const notifyError = () => toast("Email Send !");
 
     const fromInput = 
     {
@@ -37,7 +38,6 @@ const ContactForm = ()=>
           error();
         //   If Fields are empty Loader will not visible 
           setLoading(false);
-
         }
         else
         {
@@ -45,13 +45,16 @@ const ContactForm = ()=>
           const res = await sendContactForm(userInput);
           if(res.status===200)
           {
-            
             //conditional rendering
             setUserInput({name: '', email: '', phone: '', service: '', message: ''});
             setLoading(false);
             notify();
           }
-
+          else if(res.status === 400)
+          {
+            setLoading(false);
+            toast(res.statusText);
+          }
         } 
     
       }
