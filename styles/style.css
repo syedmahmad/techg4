@@ -6,20 +6,10 @@ body {
 /* Active   */
 .navbar-nav  .nav-item {
   color: #fff;
-  /* display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column; */
  }
 .navbar-nav  .nav-item .active  {
   color: #feb543 !important;
   text-decoration: none;
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column; */
-
-
 }
 .layout_padding {
   padding: 75px 0;
@@ -115,7 +105,7 @@ body {
 }
 /* Over all subheadeing size will be same */
 .font_size {
-  font-size: 17px;
+  font-size: 16px;
 }
 .sub_page .hero_area {
   height: auto;
@@ -831,8 +821,65 @@ a:focus {
   transform: translateX(0);
   z-index: 999;
 }
+/* new our services section */
+.row_service{
+  display: flex;
+  flex-wrap: wrap;
+}
+.column_service{
+  width: 100%;
+  /* border: 1px solid black; */
+  padding: 0 1em 1em 1em;
+  text-align: center;
+}
+.icon_wrapper
+{
+  background-color: #b086f9;;
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  height: 2.5em;
+  width: 2.5em;
+  color: #2e2e22;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+  color: #fff;
+}
+.icon_wrapper:hover{transform: rotate(360deg);}
+.card_service{
+  /* border: 1px solid  linear-gradient(#fff 50%,#2c7bfe 50%);; */
+  width: 100%;
+  height: 100%;
+  padding: 2em 1.5em;
+  background: linear-gradient(#6930cc 50%, #a053f9 50%);
+  background-size:100% 200% ;
+  background-position: 0 2.5%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: 0.5s;
+}
+/* .card_service:hover */
+/* { */
+  /* background-position: 0 100%; */
+  /* transition: 0.5s; */
+/* } */
+.card_service:hover .icon_wrapper {
+  transform: rotate(360deg); /* Rotate the icon 90 degrees on hover */
+}
+.service_name
+{
+  font-size: 18px;
+  margin-top: 15px;
+}
+.service_des
+{
+  font-size: 14px;
+  margin-bottom: 0px;
+}
 /* Adding media Queries for responsivenes */
-
 /* Making right div responsive */
 
 @media (max-width: 330px) {
@@ -1094,4 +1141,18 @@ a:focus {
   .specfic-Height {
     height: 65vh !important;
   }
+}
+@media screen and (min-width: 768px) {
+  .column_service{
+    flex: 0 50%;
+    max-width: 50%;
+  }
+  
+}
+@media screen and (min-width: 992px) {
+  .column_service{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+
 }
