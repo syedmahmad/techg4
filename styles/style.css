@@ -825,10 +825,10 @@ a:focus {
 .row_service{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .column_service{
   width: 100%;
-  /* border: 1px solid black; */
   padding: 0 1em 1em 1em;
   text-align: center;
 }
@@ -849,11 +849,11 @@ a:focus {
 }
 .icon_wrapper:hover{transform: rotate(360deg);}
 .card_service{
-  /* border: 1px solid  linear-gradient(#fff 50%,#2c7bfe 50%);; */
   width: 100%;
   height: 100%;
   padding: 2em 1.5em;
-  background: linear-gradient(#6930cc 50%, #a053f9 50%);
+  background: linear-gradient(to right, #864ddf, #203376);
+  /* background: linear-gradient(#6930cc 50%, #a053f9 50%); */
   background-size:100% 200% ;
   background-position: 0 2.5%;
   border-radius: 5px;

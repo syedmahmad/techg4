@@ -20,7 +20,7 @@ const ServicesContent = () => {
                         <i class="bi bi-laptop"></i>
                         </div>
                         <h3 className='service_name'>Web Development</h3>
-                        <p className='service_des'>We use modern technologies to deliver exquisitely scalable and robust web solutions.</p>
+                        <p className='service_des'>At <b>TechG4</b>, we specialize in crafting cutting-edge web solutions tailored to your unique needs. Our expertise spans a wide range of technologies, including React.js, Next.js, Python development, and more.</p>
                     </div>
                 </div>
                 <div className='column_service'>
@@ -29,7 +29,8 @@ const ServicesContent = () => {
                           <i class="bi bi-phone"></i>
                         </div>
                         <h3 className='service_name'>Mobile Development</h3>
-                        <p className='service_des'>We are expert in creating native, hybrid, and cross-platform mobile apps from start to finish.</p>
+                        <p className='service_des'>At <b>TechG4</b>, we excel in mobile app development.
+                        Whether you seek native, hybrid, or cross-platform solutions, we possess the expertise and capabilities to transform your concept into a high-performance mobile application.</p>
                     </div>
                 </div> <div className='column_service'>
                     <div className='card_service'>
@@ -37,36 +38,39 @@ const ServicesContent = () => {
                         <i class="bi bi-shield-check"></i>
                         </div>
                         <h3 className='service_name'>Quality Assurance</h3>
-                        <p className='service_des'>Solid Software testing is conducted at every phase of the project ensuring a stable release each time.</p>
+                        <p className='service_des'>At <b>TechG4</b>, our commitment to quality is unwavering. We adhere to a comprehensive software testing process that is meticulously executed at every phase of the project. Our goal is to guarantee a stable and dependable release on each occasion.</p>
                     </div>
                 </div>
             </div>
             {/* row 2 of services */}
-            {/* <div className='row_service mt-2'>
+            <div className='row_service mt-2'>
                 <div className='column_service'>
                     <div className='card_service'>
-                        <div className='icon_wrapper' style={{color:'#fff'}}>
+                        <div className='icon_wrapper'>
+                        <i class="bi bi-lightbulb"></i>
                         </div>
-                        <h3 className='service_name'>Another service</h3>
-                        <p className='service_des'>Service Body</p>
+                        <h3 className='service_name'>Consultancy</h3>
+                        <p className='service_des'>With a team of seasoned consultants and industry experts, we offer strategic insights, innovative solutions, and practical guidance to help you navigate complex challenges and achieve your goals.</p>
                     </div>
                 </div>
                 <div className='column_service'>
                     <div className='card_service'>
-                        <div className='icon_wrapper' style={{color:'#fff'}}>
+                        <div className='icon_wrapper'>
+                        <i class="bi bi-code"></i>
                         </div>
-                        <h3 className='service_name'>Another service</h3>
-                        <p className='service_des'>Service Body</p>
+                        <h3 className='service_name'>Engineering</h3>
+                        <p className='service_des'>We provide range of solutions that leverage advanced technologies to transform and optimise engineering processes.</p>
                     </div>
                 </div> <div className='column_service'>
                     <div className='card_service'>
-                        <div className='icon_wrapper' style={{color:'#fff'}}>
+                        <div className='icon_wrapper'>
+                        <i class="bi bi-globe"></i>
                         </div>
-                        <h3 className='service_name'>Another service</h3>
-                        <p className='service_des'>Service Body</p>
+                        <h3 className='service_name'>Technology</h3>
+                        <p className='service_des'><b>TechG4</b> offers transformative solutions for businesses worldwide which harness cutting-edge technologies like AI, ML, cloud computing, and data analytics.</p>
                     </div>
                 </div>
-            </div> */}
+            </div>
             {/* <div className="service_box">
                 <div className="img-box">
                     <img src="images/s-1.jpg" alt="" />

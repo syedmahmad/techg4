@@ -62,7 +62,7 @@ export default function Footer() {
                                                2nd : 1141 F-Block State Life Housing Society, Lahore, Pakistan</a>
                                             </li>
                                             <li>
-                                            <a href="tel:+92 334 9998990">+92 334 9998990</a>
+                                            <a href="tel:+44 7483 408351">+44 7483 408351</a>
                                             </li>
                                             <li>
                                                 <a href="mailto:syedmahmad099@techg4.com">syedmahmad099@techg4.com</a>
