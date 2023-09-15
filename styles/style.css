@@ -695,6 +695,8 @@ a:focus {
 
 .info_section ul {
   padding: 0;
+  max-height: 120px;
+  overflow: scroll;
 }
 
 .info_section ul li {

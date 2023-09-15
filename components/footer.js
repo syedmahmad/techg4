@@ -11,7 +11,7 @@ export default function Footer() {
                     <div className="container info_content">
                         <div>
                             <div className="row">
-                                <div className="col-md-6 col-lg-4 responsive">
+                                <div className="col-md-6 col-lg-3 responsive">
                                     <div className="d-flex">
                                         <h5>Our Company</h5>
                                     </div>
@@ -29,7 +29,7 @@ export default function Footer() {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-md-6 col-lg-4 responsive">
+                                <div className="col-md-6 col-lg-3 responsive">
                                     <div className="d-flex">
                                         <h5>Our Services</h5>
                                     </div>
@@ -44,28 +44,58 @@ export default function Footer() {
                                             <li>
                                                 <a href="">Quality Assurance</a>
                                             </li>
+                                            <li>
+                                                <a href="">Consultancy</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Engineering</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Technology</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-md-6 col-lg-4 responsive">
+                                <div className="col-md-6 col-lg-3 responsive">
                                     <div className="d-flex">
                                         <h5>Contact Us</h5>
                                     </div>
                                     <div className="d-flex ">
                                         <ul className="responsiveUL">
-                                            <li>
+                                            {/* <li>
                                                 <a href="">
                                                 1st : London Office</a>
                                             </li>
                                             <li>
                                                 <a href="https://www.google.com/maps/place/1141,+Block+F+State+Life+Phase+1+State+Life,+society,+Lahore,+Punjab/@31.4429996,74.3987096,17z/data=!3m1!4b1!4m6!3m5!1s0x3919062eb92dd57d:0x38bcce20ffb31cdb!8m2!3d31.4429996!4d74.3987096!16s%2Fg%2F11s9mq5gkb">
                                                2nd : 1141 F-Block State Life Housing Society, Lahore, Pakistan</a>
+                                            </li> */}
+                                            <li>
+                                                <a href="tel:+44 7483 408351"> <span className="mx-1"><i class="bi bi-telephone-outbound"></i></span> +44 7483 408351</a>
                                             </li>
                                             <li>
-                                            <a href="tel:+44 7483 408351">+44 7483 408351</a>
+                                                <a href="tel:+92 334 9998990"> <span className="mx-1"><i class="bi bi-telephone-outbound"></i></span> +92 334 9998990</a>
                                             </li>
                                             <li>
-                                                <a href="mailto:syedmahmad099@techg4.com">syedmahmad099@techg4.com</a>
+                                                <a href="mailto:syedmahmad099@techg4.com"><span className="mx-2"><i class="bi bi-envelope-check"></i></span>syedmahmad099@techg4.com</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div className="col-md-6 col-lg-3 responsive">
+                                    <div className="d-flex">
+                                        <h5>Address</h5>
+                                    </div>
+                                    <div className="d-flex ">
+                                        <ul className="responsiveUL">
+                                            <li>
+                                                <a href="">
+                                                    <span className="mx-1"><i class="bi bi-geo-alt"></i></span> London Office</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.google.com/maps/place/1141,+Block+F+State+Life+Phase+1+State+Life,+society,+Lahore,+Punjab/@31.4429996,74.3987096,17z/data=!3m1!4b1!4m6!3m5!1s0x3919062eb92dd57d:0x38bcce20ffb31cdb!8m2!3d31.4429996!4d74.3987096!16s%2Fg%2F11s9mq5gkb">
+                                                    <span className="mx-1"><i class="bi bi-geo-alt"></i></span> 1141 F-Block State Life Housing Society, Lahore, Pakistan</a>
                                             </li>
                                         </ul>
                                     </div>

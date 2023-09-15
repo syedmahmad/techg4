@@ -3,6 +3,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; 
 import { sendContactForm } from "../../lib/api";
 import Spinner from 'react-bootstrap/Spinner';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const ContactForm = ()=>
 {
@@ -62,12 +63,11 @@ const ContactForm = ()=>
         <section className="contact_section layout_padding responsive-margin">
         <div className="container contact_heading">
             <h2>Contact Us</h2>
+            {/* <p style={{marginLeft:'1.5rem'}}>
+                London Office
+            </p> */}
             <p>
-                1141 F-Block State Life Housing Society, Lahore, Pakistan
-            </p>
-            
-            <p>
-                <span className="mx-3">&#128222;</span> +92 334 9998990
+                <span className="mx-2">London :</span><span className="mx-3">&#128222;</span>   +44 7483 408351
             </p>
         </div>
         {/* Form Started here */}
@@ -96,6 +96,9 @@ const ContactForm = ()=>
                             <option>Web Development</option>
                             <option>Mobile Development</option>
                             <option>Quality Assurance</option>
+                            <option>Consultancy</option>
+                            <option>Engineering</option>
+                            <option>Technology</option>
                         </select>
                     </div>
                 </div>

@@ -17,6 +17,7 @@ const handler = async (req, res) => {
       try {
         await transporter.sendMail({
           to: email,
+          cc: ['syedmahmad099@techg4.com','syedmahmad099@gmail.com'], 
           from: data.email,
           subject: "Contact Email",
           text: `Name: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone}\nService: ${data.service}\nMessage: ${data.message}`,
