@@ -21,7 +21,7 @@ const SliderContent = () => {
           </p>
           <div className=''> 
             <button className='hero_btn text-white'>
-              Let's Talk  <i class="arrow_right bi bi-arrow-right" />
+              Let`&apos;`s Talk  <i class="arrow_right bi bi-arrow-right" />
           </button>
           </div>
 
