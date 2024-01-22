@@ -8,6 +8,8 @@ import ProblemContent from "../components/common/problemContent";
 import WhyContent from "../components/common/whyContent";
 import ContactForm from "../components/common/contactForm";
 import SliderContent from "../components/common/sliderContent";
+// this is in progress that's why commenting this...
+// import AboutCompany from "../components/common/aboutCompany";
 
 export default function Home() {
   return (
@@ -138,6 +140,9 @@ export default function Home() {
         </div>
       </section> */}
       {/* end client section */}
+      {/* AboutCompany Section Started here */}
+        {/* <AboutCompany /> */}
+      {/* AboutCompany Section ended here */}
       {/* contact section */}
         <ContactForm/>
       {/* end contact section */}

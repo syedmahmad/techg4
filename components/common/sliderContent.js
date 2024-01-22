@@ -1,80 +1,43 @@
-
-import React from 'react'
-
+import React from 'react';
+import SimpleSlider from './SimpleSlider';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const SliderContent = () => {
   return (
-    <div className="hero_area">
-      <section className=" slider_section ">
-        <div
-          id="carouselExampleIndicators"
-          className="carousel slide"
-          data-ride="carousel"
-        >
-          {/* <ol className="carousel-indicators">
-        <li
-          data-target="#carouselExampleIndicators"
-          data-slide-to={0}
-          className="active"
-        >
-          01
-        </li>
-        <li data-target="#carouselExampleIndicators" data-slide-to={1}>
-          02
-        </li>
-        <li data-target="#carouselExampleIndicators" data-slide-to={2}>
-          03
-        </li>
-      </ol> */}
-          <div className="carousel-inner ">
-            <div className="carousel-item active">
-              <div className="container">
-                <div className="row">
-                  <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 ipadAirResponsive specfic-Height">
-                    <div className="slider_detail-box ">
-                      <h1 className="heading ">
-                        Manifesting The Technology For Your Future
-                      </h1>
-                      <p className="sub-heading font_size">
-                        Committed to meet deadlines, our deep software engineering and product
-                        expertise offer the best solutions to your business needs.
-                      </p>
-                      {/* <div className="btn-box">
-                    <a href="" className="btn-1">
-                      Read More
-                    </a>
-                  </div> */}
-                    </div>
-                  </div>
-                  <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 ipadAirResponsive specfic-Height">
-                    <div className="slider_img-box ">
-                      <img src="images/slider-img.png" alt="" className="insider-image" />
-                    </div>
-                  </div>
-                </div>
+      <section className="hero_section">
+        <div className='container'> 
+        <div className='inner_container w-md-75'>
+          <div className='row'>
+          <div className='col-sm-12 col-md-6 col-xl-6 col-xxl-6'>
+            <div className='content_div_xs '>
+          <h2 className='main_heading text-white w-100'>
+            Economical top Engineers And Resources
+            {/* Manifesting The Technology For Your Future */}
+          </h2>
+          <p className='subHeading text-white'>
+            We help to scale your team and projects
+            with expert top Engineers and Talent in 
+            very economical way. How much economical? 
+          </p>
+          <div className=''> 
+            <button className='hero_btn text-white'>
+              Let's Talk  <i class="arrow_right bi bi-arrow-right" />
+          </button>
+          </div>
+
+          </div>
+          </div>
+          <div className='col-sm-12 col-md-6 col-xl-6 col-xxl-6 mt-5'>
+            <div className='content_div_img w-md-75'>
+              <div className='heart-container'> 
+                  <SimpleSlider />
               </div>
             </div>
           </div>
-          {/* <div className="carousel_btn-container">
-        <a
-          className="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
-        >
-          <span className="sr-only">Previous</span>
-        </a>
-        <a
-          className="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
-          <span className="sr-only">Next</span>
-        </a>
-      </div> */}
+          </div>
+          </div>
         </div>
       </section>
-    </div>
   )
 }
 
