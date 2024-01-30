@@ -5,7 +5,7 @@ export default function SimpleSlider() {
   var settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 600,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,

@@ -8,41 +8,40 @@ import ProblemContent from "../components/common/problemContent";
 import WhyContent from "../components/common/whyContent";
 import ContactForm from "../components/common/contactForm";
 import SliderContent from "../components/common/sliderContent";
-// this is in progress that's why commenting this...
-// import AboutCompany from "../components/common/aboutCompany";
+import AboutCompany from "../components/common/aboutCompany";
 
 export default function Home() {
   return (
-    
+
     <Layout title="HOME | TechG4">
-        {/* slider section */}
+      {/* slider section */}
 
-          <SliderContent/>
+      <SliderContent />
 
-        {/* end slider section */}
+      {/* end slider section */}
 
       {/* welcome section */}
 
-        <AboutContent/>
-      
+      <AboutContent />
+
       {/* end welcome section */}
 
       {/* service section */}
 
-         <ServicesContent/>
-     
+      <ServicesContent />
+
       {/* end service section */}
 
       {/*problem section */}
 
-        <ProblemContent/>
+      <ProblemContent />
 
       {/* end problem section */}
 
       {/* why section */}
-            <WhyContent/>
+      <WhyContent />
       {/* end why section */}
-      
+
       {/* client section */}
       {/* <section className="client_section layout_padding">
         <div className="container">
@@ -141,10 +140,10 @@ export default function Home() {
       </section> */}
       {/* end client section */}
       {/* AboutCompany Section Started here */}
-        {/* <AboutCompany /> */}
+      <AboutCompany />
       {/* AboutCompany Section ended here */}
       {/* contact section */}
-        <ContactForm/>
+      <ContactForm />
       {/* end contact section */}
     </Layout>
   )

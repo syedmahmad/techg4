@@ -1,9 +1,11 @@
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import { usePathname } from 'next/navigation';
 
 const ServicesContent = () => {
+    const pathName = usePathname();
     return (
-        <section className="service_section responsive-margin">
+        <section className={`${pathName === "/service" ? "service_section_WithoutClipPath responsive-margin" : "service_section responsive-margin"}`}>
             <div className="container">
                 <div className="custom_heading-container">
                     <h2>Our Services</h2>

@@ -1,3 +1,4 @@
+import { Router } from "next/router";
 import React from "react";
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -20,7 +21,7 @@ const ProblemContent = () => {
               having worked with startups for over ten years and launched many successful products.
             </p>
             <div>
-              <a href="/contact">Contact US</a>
+             <a href="/contact" className='hero_btn'>Contact US</a>
             </div>
           </div>
         </div>

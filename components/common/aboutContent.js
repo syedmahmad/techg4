@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+
 const AboutContent = () => {
   return (
     <section className="welcome_section layout_padding responsive-margin">
@@ -19,7 +20,7 @@ const AboutContent = () => {
               We follow a customer-centric, collaborative approach after understanding customer’s business needs and gradually addressing them through crafting custom software solutions.
             </p>
             <div>
-              <a href="/about">Read More</a>
+              <a href="/about" className='hero_btn'>Read More</a>
             </div>
           </div>
         </div>
